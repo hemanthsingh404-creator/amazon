@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amazon Clone</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <a class="nav-logo border" href="#">
+                <i class="fa-brands fa-amazon"></i>
+                <span>amazon</span>
+            </a>
+
+            <div class="nav-location border">
+                <a class="delivery-location" href="#">
+                    <span class="small-text">Deliver to</span>
+                    <span class="location-row">
+                        <i class="fa-solid fa-location-dot"></i>
+                        <strong>India</strong>
+                    </span>
+                </a>
+            </div>
+
+            <div class="nav-links">
+                <a href="#">Home</a>
+                <a href="#">Products</a>
+                <a href="#">Deals</a>
+                <a href="#">Contact</a>
+            </div>
+
+            <div class="nav-search">
+                <select aria-label="Search category">
+                    <option>All</option>
+                    <option>Mobiles</option>
+                    <option>Fashion</option>
+                    <option>Electronics</option>
+                </select>
+                <input type="search" placeholder="Search Amazon.in">
+                <button type="submit" aria-label="Search"><i class="fa-solid fa-magnifying-glass"></i></button>
+            </div>
+
+            <div class="nav-actions">
+                <a class="border" href="#">
+                    <span class="small-text">Hello, sign in</span>
+                    <strong>Account & Lists</strong>
+                </a>
+                <a class="border" href="#">
+                    <span class="small-text">Returns</span>
+                    <strong>& Orders</strong>
+                </a>
+                <a class="cart-link border" href="#">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                    <strong>Cart</strong>
+                </a>
+            </div>
+        </nav>
+
+        <div class="panel">
+            <a href="#"><i class="fa-solid fa-bars"></i> All</a>
+            <a href="#">Fresh</a>
+            <a href="#">Amazon miniTV</a>
+            <a href="#">Sell</a>
+            <a href="#">Best Sellers</a>
+            <a href="#">Mobiles</a>
+            <a href="#">Today's Deals</a>
+            <a href="#">Customer Service</a>
+            <a href="#">Electronics</a>
+            <a href="#">Fashion</a>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero-section"></section>
+
+        <section class="products-section">
+            <div class="section-title">
+                <h2>Deals inspired by your shopping</h2>
+                <a href="#">See all deals</a>
+            </div>
+
+            <article class="product-card">
+                <div class="product-image">
+                    <img src="https://images.unsplash.com/photo-1593642702821-c8da6771f0c6?auto=format&fit=crop&w=600&q=80" alt="HP 15s Laptop">
+                </div>
+                <h3>HP 15s Laptop</h3>
+                <p class="product-offer"><span>25% off</span> Great Summer Sale</p>
+                <p class="product-price"><span>&#8377;</span>39,990</p>
+                <p class="product-mrp">M.R.P: <del>&#8377;52,990</del></p>
+                <p class="product-rating">4.2 <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-regular fa-star"></i></p>
+                <button>Add to cart</button>
+            </article>
+
+            <article class="product-card">
+                <div class="product-image">
+                    <img src="https://images.unsplash.com/photo-1623949615379-315cdcdcf1e2?auto=format&fit=crop&w=600&q=80" alt="Samsung Galaxy Phone">
+                </div>
+                <h3>Samsung Galaxy Phone</h3>
+                <p class="product-offer"><span>26% off</span> Exchange offer available</p>
+                <p class="product-price"><span>&#8377;</span>18,499</p>
+                <p class="product-mrp">M.R.P: <del>&#8377;24,999</del></p>
+                <p class="product-rating">4.1 <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-regular fa-star"></i></p>
+                <button>Add to cart</button>
+            </article>
+
+            <article class="product-card">
+                <div class="product-image">
+                    <img src="https://images.unsplash.com/photo-1599669454515-1b2e0173f302?auto=format&fit=crop&w=600&q=80" alt="Wireless Headphones">
+                </div>
+                <h3>Wireless Headphones</h3>
+                <p class="product-offer"><span>57% off</span> Deal of the day</p>
+                <p class="product-price"><span>&#8377;</span>1,299</p>
+                <p class="product-mrp">M.R.P: <del>&#8377;2,999</del></p>
+                <p class="product-rating">4.4 <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-regular fa-star"></i></p>
+                <button>Add to cart</button>
+            </article>
+
+            <article class="product-card">
+                <div class="product-image">
+                    <img src="https://images.unsplash.com/photo-1716951848908-8907bb6c655b?auto=format&fit=crop&w=600&q=80" alt="Men's Cotton T-Shirt">
+                </div>
+                <h3>Men's Cotton T-Shirt</h3>
+                <p class="product-offer"><span>50% off</span> Buy 2 get 10% off</p>
+                <p class="product-price"><span>&#8377;</span>499</p>
+                <p class="product-mrp">M.R.P: <del>&#8377;999</del></p>
+                <p class="product-rating">4.0 <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-regular fa-star"></i></p>
+                <button>Add to cart</button>
+            </article>
+        </section>
+    </main>
+</body>
+</html>
